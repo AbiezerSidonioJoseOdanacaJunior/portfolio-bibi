@@ -1,7 +1,11 @@
+import { userIcon } from "./images";
+
 export default function Logo() {
     return (
-        <div>
-            <h3>Logo</h3>
+        <div className={`flex flex-col items-center justify-center`}>
+            <div>
+               {userIcon}
+            </div>
         </div>
     )
 }

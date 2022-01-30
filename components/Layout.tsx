@@ -1,7 +1,19 @@
-export default function Layout() {
+import Content from "./Content";
+import SideBar from "./SideBar";
+import TopBar from "./TopBar";
+
+interface LayoutProps {
+    titulo: string
+}
+
+export default function Layout(props: LayoutProps) {
     return (
-        <div>
-            <h1>Aqui vai ficar o conyeúdo dá página!</h1>
+        <div className={`flex h-screen w-screen`}>
+            <SideBar />
+            <div>
+                <TopBar />
+                <Content />
+            </div>
         </div>
     )
 }
