@@ -8,7 +8,7 @@ export default function SideBar() {
             <div className={`flex flex-col items-center justify-center`}>
                 <Logo />
             </div>
-            <ul className={`flex-grow`}> 
+            <ul className={`flex-grow p-5 justify-center items-center`}> 
                 <Itens icone={instaIcon} texto="Instagram" />
                 <Itens icone={instaIcon} texto="Linkedin" />
                 <Itens icone={instaIcon} texto="Facebook" />
@@ -17,8 +17,15 @@ export default function SideBar() {
                 <Itens icone={instaIcon} texto="Telegram" />
                 <Itens icone={instaIcon} texto="Twiter" />
             </ul>
-            <ul className={`flex-grow`}>
-
+            <ul className={`flex-grow `}>
+                <p>Tecnologias!!</p>
+                <div>
+                <Itens texto="HTML" />
+                <Itens texto="CSS" />
+                <Itens texto="BOOTSTRAP" />
+                <Itens texto="NextJs" />
+                <Itens texto="JavaScript" />
+                </div>
             </ul>
         </aside>
     )

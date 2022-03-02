@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 interface ItensProps {
-    icone: any
+    icone?: any
     texto: string
     url?: string
     onClick?: (evento: any) => void 

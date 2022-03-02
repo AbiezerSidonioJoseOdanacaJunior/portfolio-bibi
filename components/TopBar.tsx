@@ -6,7 +6,7 @@ export default function TopBar() {
         <div className="flex items-center bg-gray-500">  
         <h1>Meus projetos</h1>
         </div>
-        <div className={`flex justify-end items-center pr-0 `}>
+        <div className={`flex flex-grow justify-end items-center pr-0 `}>
         <Link href="https://github.com/AbiezerSidonioJoseOdanacaJunior">
         <a>Veja mais...</a>
         </Link>
